@@ -23,8 +23,6 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-gray-950 text-white">
-
-      {/* Header */}
       <header className="border-b border-gray-800 px-8 py-4 flex items-center justify-between">
         <h1 className="text-xl font-bold">⚡ TechTrendly</h1>
         <nav className="flex gap-6 text-sm text-gray-400">
@@ -34,7 +32,6 @@ export default function Home() {
         </nav>
       </header>
 
-      {/* Hero */}
       <section className="text-center py-16 px-4">
         <h2 className="text-5xl font-bold mb-4">
           Track What's <span className="text-blue-500">Trending</span> in Tech
@@ -44,7 +41,6 @@ export default function Home() {
         </p>
       </section>
 
-      {/* Bar Chart */}
       <section className="max-w-4xl mx-auto px-8 pb-12">
         <h3 className="text-2xl font-semibold mb-6">📊 Language Popularity</h3>
         <div className="bg-gray-900 border border-gray-800 rounded-2xl p-6">
@@ -68,7 +64,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Rankings */}
       <section className="max-w-4xl mx-auto px-8 pb-20">
         <h3 className="text-2xl font-semibold mb-6">🔥 Live Rankings</h3>
         <div className="flex flex-col gap-3">
@@ -95,7 +90,6 @@ export default function Home() {
           ))}
         </div>
       </section>
-
     </main>
   );
 }
